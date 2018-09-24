@@ -9,7 +9,7 @@ This site features documentation on the image processing and optimization routin
 
 * If you'd like to learn more about a particular model, see [Documentation by Models].
 
-* If you'd like to learn more about a particular algorithm, see [Documentation by Algorithms].
+* If you'd like to learn more about a particular algorithm, see [Documentation by Algorithms](applications.html).
 
 * If you'd like to see how to apply SPIDAL algorithsm to real problems, see [Exemplar Applications].
 
