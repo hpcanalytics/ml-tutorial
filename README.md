@@ -40,7 +40,7 @@ You can use this resource in several different ways:
 
 
 
-
+---
 
 
 # Exemplar applications
@@ -55,7 +55,7 @@ You can use this resource in several different ways:
 * [Research paper (IEEE International Conference on Image Processing 2017)](http://vision.soic.indiana.edu/papers/icesurface2017icip.pdf)
 * [Research project website](http://vision.soic.indiana.edu/projects/icelayers/)
 * Technologies: Image reconstruction, image recognition, discrete optimization, probabilistic inference
-* Models: Markov Random Fields
+* Models: [Markov Random Fields](#spatial-models)
 * Algorithms: [Loopy Belief Propagation](#discrete-optimization), [Tree-reweighted Message Passing](#discrete-optimization)
 
 
@@ -68,7 +68,7 @@ You can use this resource in several different ways:
 * [Research paper (IEEE International Conference on Pattern Recognition 2012)](http://vision.soic.indiana.edu/papers/icesheets2012icpr.pdf)
 * [Research project website](http://vision.soic.indiana.edu/projects/icelayers/)
 * Technologies: Image segmentation, discrete optimization, probabilistic inference
-* Models: Hidden Markov Models
+* Models: [Hidden Markov Models](#sequence-models)
 * Algorithms: [Viterbi](#sequence-model-inference)
 
 #### Identifies layer boundaries in radar echograms, including "soft" confidence bounds on layer locations.
@@ -76,7 +76,7 @@ You can use this resource in several different ways:
 * [Research paper (IEEE International Conference on Image Processing 2014)](http://vision.soic.indiana.edu/papers/icelayers2014icip.pdf)
 * [Research project website](http://vision.soic.indiana.edu/projects/icelayers/)
 * Technologies: Image segmentation, discrete optimization, probabilistic inference
-* Models: Hidden Markov Models, Markov Random Fields
+* Models: [Hidden Markov Models](#sequence-models), [Markov Random Fields](#spatial-models)
 * Algorithms: [Markov Chain Monte Carlo](#sequence-model-inference)
 
 ## 3D Reconstruction of Landmarks from Social Media images
@@ -90,7 +90,7 @@ You can use this resource in several different ways:
 * [Research paper (IEEE Transactions on Pattern Analysis and Machine Intelligence 2013)](http://vision.soic.indiana.edu/papers/disco2013pami.pdf)
 * [Research project website](http://vision.soic.indiana.edu/disco/)
 * Technologies: Discrete optimization, continuous optimization, image feature point extraction
-* Models: Mark Random Fields, Non-linear Least Squares
+* Models: [Markov Random Fields](#spatial-models), [Non-linear Least Squares](#regression-models)
 * Algorithms: [Loopy Belief Propagation](#discrete-optimization), [Levenberg-Marquardt](#continuous-optimization), [Scale Invariant Feature Transforms](#image-processing-and-computer-vision)
 
 ## Multi-modal Photo Clustering
@@ -101,7 +101,7 @@ You can use this resource in several different ways:
 
 * [Research paper (IEEE Computer Vision and Pattern Recognition 2014)](http://vision.soic.indiana.edu/papers/multimodal2014cvpr.pdf)
 * Technologies: Clustering, discrete optimization, image feature  extraction
-* Models: Markov Random Fields, Scale Invariant Feature Transforms, Bag-of-words image features
+* Models: [Markov Random Fields](#spatial-models), [Bag-of-words](#image-features)
 * Algorithms: [Tree-reweighted Message Passing](#discrete-optimization), [K-means](#clustering-and-grouping), [Scale Invariant Feature Transforms](#image-processing-and-computer-vision)
 
 #### Organizes and visualizes social media images using multimodal features.
@@ -109,7 +109,7 @@ You can use this resource in several different ways:
 * [Research paper (World Wide Web Conference 2009)](http://vision.soic.indiana.edu/papers/mapping2009www.pdf)
 * [Research project website](http://www.cs.indiana.edu/~djcran/photomap/)
 * Technologies: Clustering, image feature extraction
-* Models: Bag-of-words features, Support vector machines
+* Models: [Bag-of-words](#image-features), [Support vector machines](#classification-models)
 * Algorithms: [K-means](#clustering-and-grouping), [Mean shift](#clustering-and-grouping)
 
 ## Photo segmentation
@@ -120,7 +120,7 @@ You can use this resource in several different ways:
 
 * [Research paper (Neural Information Processing Systems 2016)](http://vision.soic.indiana.edu/papers/mcl2016nips.pdf)
 * Technologies: Segmentation, deep learning, discrete optimization
-* Models: Markov Random Fields, Deep Neural Networks
+* Models: [Markov Random Fields](#spatial-models), [Deep Neural Networks](#regression-models)
 * Algorithms:  [Gradient Descent](#continuous-optimization), [Tree-reweighted Message Passing](#discrete-optimization)
 
 
@@ -132,7 +132,7 @@ You can use this resource in several different ways:
 
 * [Research paper (Book Chapter)](http://vision.soic.indiana.edu/papers/landmarks2015book.pdf)
 * Technologies: Recognition, deep learning, discrete optimization, continuous optimization, image feature extraction
-* Models: Hidden Markov Models, Deep Neural Networks, Support Vector Machines, Bag-of-words
+* Models: [Hidden Markov Models](#sequence-models), [Deep Neural Networks](#regression-models), [Support Vector Machines](#classification-models), [Bag-of-words](#image-features)
 * Algorithms: [Viterbi](#sequence-model-inference),  [Gradient Descent](#continuous-optimization), [K-means](#clustering-and-grouping), [k-nearest neighbors](#clustering-and-grouping)
 
 
@@ -145,12 +145,12 @@ You can use this resource in several different ways:
 * [Research paper (ECCV Workshop 2016)](http://vision.soic.indiana.edu/papers/deepdiary2016eccvw.pdf)
 * [Research project website](http://vision.soic.indiana.edu/projects/deepdiary/)
 * Technologies: Deep learning, discrete optimization
-* Models: Hidden Markov Models, Deep Neural Networks, Long-short Term Memories
+* Models: [Hidden Markov Models](#sequence-models), [Deep Neural Networks](#regression-models), [Long-short Term Memories](#sequence-models)
 * Algorithms: [Viterbi](#sequence-model-inference), [Gradient Descent](#continuous-optimization)
 
 
 
-
+---
 
 # Algorithms
 
@@ -201,5 +201,31 @@ to more information about the algorithms, as well as source code and documentati
 * Image alignment
 * Edge detection
 * Scale Invariant Feature Transform
+
+---
+
+# Models
+
+## Sequence models
+* Hidden Markov Models
+* Long-short Term Memory models
+
+## Spatial models
+* Markov Random Fields
+
+## Classification models
+* Nearest neighbor
+* Support Vector Machines
+
+
+## Regression models
+* Non-linear least squares
+* Deep Neural Networks
+
+## Image features
+* Edges
+* Interest points
+* Bag of words models
+
 
 
