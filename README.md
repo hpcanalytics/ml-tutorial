@@ -1,4 +1,3 @@
-% ### Welcome to the SPIDAL Image Processing and Optimization Library %
 
 # Welcome
 
