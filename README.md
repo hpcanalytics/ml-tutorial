@@ -123,7 +123,7 @@ You can use this resource in several different ways:
 * [Research project website](http://vision.soic.indiana.edu/projects/deepdiary/)
 * Technologies: Deep learning, discrete optimization
 * Models: Hidden Markov Models, Deep Neural Networks, Long-short Term Memories
-* Algorithms: [Viterbi](#inference-on-statistical-sequence-models), [Gradient Descent](#continuous optimization)
+* Algorithms: [Viterbi](#hmm-algorithms), [Gradient Descent](#continuous)
 
 
 
@@ -134,7 +134,7 @@ You can use this resource in several different ways:
 SPIDAL implementations are available for algorithms that solve various models and problems. The links below lead
 to more information about the algorithms, as well as source code and documentation.
 
-## Inference on statistical sequence models
+## Inference on statistical sequence models<a link="#
 
 * Viterbi algorithm for exact Maximum A Posteriori (MAP) inference
 * Forward-Backward algorithm for exact marginal inference
