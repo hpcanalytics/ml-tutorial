@@ -16,7 +16,7 @@
   </head>
   <body>
 
-      <header>
+      <header style="position:relative;">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
@@ -41,7 +41,7 @@
       <nav style="height:calc(100vh - 220px);overflow-y:scroll;">
         <ul></ul>
       </nav>
-      <section>
+      <section style="margin-top:0px;">
         {{ content }}
 
       </section>
