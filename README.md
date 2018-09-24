@@ -7,16 +7,21 @@ This site features documentation on the image processing and optimization routin
 
 You can use this resource in several different ways:
 
+* If you'd like to see how to apply SPIDAL algorithms to real problems, see [Exemplar Applications](#exemplar-applications).
+
+* If you'd like to learn more about a particular model, see [Models](#models).
+
+* If you'd like to learn more about a particular algorithm, see [Algorithms].
+
 * If you have a problem to solve and need to choose a model or algorithm see [Documentation by Problem Type].
 
-* If you'd like to learn more about a particular model, see [Documentation by Models].
-
-* If you'd like to learn more about a particular algorithm, see [Documentation by Algorithms](applications.html).
-
-* If you'd like to see how to apply SPIDAL algorithsm to real problems, see [Exemplar Applications].
 
 
-# Exemplar applications
+
+
+
+
+# Exemplar applications<a name="headin"></a>
 
 ## 3D Reconstruction of Polar Ice
 
@@ -119,6 +124,60 @@ You can use this resource in several different ways:
 * [Research project website](http://vision.soic.indiana.edu/projects/deepdiary/)
 * Technologies: Deep learning, discrete optimization
 * Models: Hidden Markov Models, Deep Neural Networks, Long-short Term Memories
-* Algorithms: Viterbi, Gradient Descent
+* Algorithms: [Viterbi](#inference-on-statistical-sequence-models), [Gradient Descent](#continuous optimization)
+
+
+
+
+
+# Algorithms
+
+SPIDAL implementations are available for algorithms that solve various models and problems. The links below lead
+to more information about the algorithms, as well as source code and documentation.
+
+## Inference on statistical sequence models
+
+* Viterbi algorithm for exact Maximum A Posteriori (MAP) inference
+* Forward-Backward algorithm for exact marginal inference
+* Markov Chain Monte Carlo (MCMC) for approximate MAP inference 
+ 
+
+## Discrete optimization
+
+* Loopy Belief Propagation for approximate optimization of Markov Random Field models
+* Tree Reweighted Message Passing (TRW-S) for approximate optimization of Markov Random Field models
+* Gibbs Sampling for approximate inference on Markov Random Field models
+ 
+
+## Continuous optimization
+
+* Levenberg-Marquardt - non-linear least squares
+* Gradient descent
+ 
+
+## Statistical estimation
+
+* Expectation-maximization on Hidden Markov Models
+* Expectation-maximization on Markov Random Field Models
+ 
+
+## Clustering and grouping
+
+* K-means clustering
+* Mean shift clustering
+* Approximate all-pairs similarity search
+* Deterministic Annealing 
+
+## Dimensionality reduction
+
+* Multidimensional Scaling (MDS) 
+ 
+
+## Image processing and computer vision
+
+* Unsupervised image segmentation
+* Image alignment
+* Edge detection
+* Scale Invariant Feature Transform
 
 
