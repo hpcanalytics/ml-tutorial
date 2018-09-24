@@ -159,16 +159,16 @@ to more information about the algorithms, as well as source code and documentati
 
 ## Sequence model inference
 
-* Viterbi algorithm for exact Maximum A Posteriori (MAP) inference
-* Forward-Backward algorithm for exact marginal inference
-* Markov Chain Monte Carlo (MCMC) for approximate MAP inference 
+* [Viterbi algorithm](https://github.com/hpcanalytics/Hidden-Markov-Model/tree/master/algorithm.viterbi) for exact Maximum A Posteriori (MAP) inference
+* [Forward-Backward algorithm](https://github.com/hpcanalytics/Hidden-Markov-Model/tree/master/algorithm.forward-backward) for exact marginal inference
+* [Markov Chain Monte Carlo (MCMC)](https://github.com/hpcanalytics/Hidden-Markov-Model/tree/master/algorithm.mcmc) for approximate MAP inference 
  
 
 ## Discrete optimization
 
-* Loopy Belief Propagation for approximate optimization of Markov Random Field models
-* Tree Reweighted Message Passing (TRW-S) for approximate optimization of Markov Random Field models
-* Gibbs Sampling for approximate inference on Markov Random Field models
+* [Loopy Belief Propagation](https://github.com/hpcanalytics/Markov-Random-Field/tree/master/algorithm.Loopy-Belief-Propoagation) for approximate optimization of [Markov Random Fields](#spatial-models) 
+* [Tree Reweighted Message Passing (TRW-S)](https://github.com/hpcanalytics/Markov-Random-Field/tree/master/algorithm.TRW-S) for approximate optimization of [Markov Random Fields](#spatial-models) 
+* Gibbs Sampling for approximate inference on [Markov Random Fields](#spatial-models) 
  
 
 ## Continuous optimization
@@ -177,16 +177,16 @@ to more information about the algorithms, as well as source code and documentati
 * Gradient descent
  
 
-## Statistical estimation
+% ## Statistical estimation %
 
-* Expectation-maximization on Hidden Markov Models
-* Expectation-maximization on Markov Random Field Models
+% * Expectation-maximization on Hidden Markov Models %
+% * Expectation-maximization on Markov Random Field Models %
  
 
 ## Clustering and grouping
 
-* K-means clustering
-* Mean shift clustering
+* [K-means clustering](https://github.com/hpcanalytics/Clustering-and-Grouping/tree/master/algorithm.k-means)
+* [Mean shift clustering](https://github.com/hpcanalytics/Clustering-and-Grouping/tree/master/algorithm.mean-shift)
 * Approximate all-pairs similarity search
 * Deterministic Annealing 
 
@@ -207,11 +207,11 @@ to more information about the algorithms, as well as source code and documentati
 # Models
 
 ## Sequence models
-* Hidden Markov Models
+* [Hidden Markov Models](https://github.com/hpcanalytics/Hidden-Markov-Model)
 * Long-short Term Memory models
 
 ## Spatial models
-* Markov Random Fields
+* [Markov Random Fields](https://github.com/hpcanalytics/Markov-Random-Field)
 
 ## Classification models
 * Nearest neighbor
