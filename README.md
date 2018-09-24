@@ -1,8 +1,31 @@
 
 # Welcome
 
-This site features documentation on the image processing and optimization routines available in SPIDAL. In addition to information about how to use the libraries themselves, we include background information about what these routines do, how they work, and when to use them, and show examples of their use on real problems.
+This site features documentation on the image processing and optimization routines available in SPIDAL. 
 
+A basic philosophy underlying SPIDAL is that *many problems in AI-related domains* 
+(including machine learning, image understanding,  computer vision, etc) *can be posed and solved using
+one of a relatively small number of general techniques.* Instead of re-inventing algorithms that are
+customized for a particular application, we advocate posing new problems in terms of  general and abstract
+techniques. For example, many problems involving analyzing sequences can be posed as Hidden Markov Models,
+whether the sequences are sentences, positions of objects across time, audio signals, or protein sequences.
+
+This view encourages separating applications, models,  algorithms, and implementations to maximize generalization and
+code reuse. An *application* involves solving a particular domain-specific problem. Many such domain-specific tasks
+can be posed in terms of a *model* that precisely defines a mathematical problem to be solved.
+Different models may make different assumptions, trading off between
+simplicity and faithfulness to the original problem. 
+An *algorithm* is a particular strategy for solving for unknown variables in that model. 
+Different algorithms can be used to solve a given model, often with different trade-offs
+between accuracy and speed.
+An *implementation* is one particular set of source codes for executing an algorithm. Implementations
+may use heuristics or simplifications to improve practical results or decrease running time of an algorithm. 
+
+# Contents
+
+The goal of this site is to help choose the right model and algorithm abstractions for a given novel problem,
+and then apply SPIDAL codes to these new problems.
+Thus in addition to information about how to use the libraries themselves, we include background information about what these routines do, how they work, and when to use them, and show examples of their use on real problems.
 
 You can use this resource in several different ways:
 
