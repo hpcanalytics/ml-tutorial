@@ -35,7 +35,7 @@ You can use this resource in several different ways:
 
 * If you'd like to learn more about a particular algorithm, see [Algorithms](#algorithms).
 
-[](* If you have a problem to solve and need to choose a model or algorithm see [Documentation by Problem Type].)
+[](If you have a problem to solve and need to choose a model or algorithm see Documentation by Problem Type.)
 
 
 
