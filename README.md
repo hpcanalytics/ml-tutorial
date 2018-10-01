@@ -177,11 +177,6 @@ to more information about the algorithms, as well as source code and documentati
 * Gradient descent
  
 
-% ## Statistical estimation %
-
-% * Expectation-maximization on Hidden Markov Models %
-% * Expectation-maximization on Markov Random Field Models %
- 
 
 ## Clustering and grouping
 
